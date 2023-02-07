@@ -37,7 +37,7 @@ if(Number(last.buyukluk) < 4.0)buyuklukEmoji="🟢"
 
 client.channels.cache.get(config.kanalId).send({embeds:[depremEmbed]})
 
-}, 1*20000);
+}, 1*60000);
 
 });
 class Deprem {
